@@ -1,0 +1,57 @@
+.Header {
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    height: 85px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    /* border: 2px solid white; */
+}
+
+/* .Navbar {
+    z-index: ;
+} */
+
+.glow {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+}
+
+.jovial-jumbotron {
+    text-align: center;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0%;
+    align-self: center;
+    font-size: 25px;
+    font-family: "SimsSun";
+    font-weight: bold;
+    color: #fff;
+    height: 33.33px;
+    animation: glow 2s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+    from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #3d9b34, 0 0 40px #ffffff, 0 0 50px #ffffff, 0 0 60px #3d9b34, 0 0 70px #ffffff;
+    }
+    
+    to {
+    text-shadow: 0 0 10px #fff, 0 0 60px #3d9b34, 0 0 30px #3d9b34, 0 0 40px #ffffff, 0 0 50px #ffffff, 0 0 70px #ffffff;
+    }
+}
+
+.TriPod0Life {
+    background: transparent !important;
+    mix-blend-mode: multiply;
+    color: white !important;
+    font-weight: bold;
+    /* background-blend-mode: exclusion !important; */
+    margin-top: 10px;
+    margin-bottom: 0%;
+    size-adjust: auto;
+    height: 43.33px;
+    width: 43.33px;
+    align-items: center !important;
+}

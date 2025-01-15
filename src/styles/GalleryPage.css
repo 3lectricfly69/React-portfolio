@@ -1,0 +1,73 @@
+/* Gallery Page Layout */
+.galleryPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  /* Gallery Grid Layout (4x5 Grid) */
+  .galleryGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 200px); /* 4 columns, each 200px wide */
+    grid-template-rows: repeat(5, 200px);    /* 5 rows, each 200px tall */
+    gap: 20px; /* Space between the images */
+    justify-content: center;
+    width: 100%;
+    max-width: 900px; /* Optional, you can adjust this to fit your design */
+  }
+  
+  /* Each Image Item */
+  .galleryItem {
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  /* Hover effect for images */
+  .galleryItem:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Gallery Image Styling */
+  .galleryImage {
+    width: 200px; /* Fixed width of 200px */
+    height: 200px; /* Fixed height of 200px */
+    object-fit: cover; /* Ensures the image fits nicely within the container */
+    border-radius: 10px;
+    display: block;
+  }
+  
+  /* Lightbox Style */
+  .lightbox {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+    cursor: pointer; /* Makes the lightbox clickable to close */
+  }
+  
+  /* Lightbox Image Styling */
+  .lightboxImage {
+    max-width: 90%;
+    max-height: 90%;
+    object-fit: contain; /* Ensures image aspect ratio is preserved */
+    border-radius: 10px;
+  }
+  
+  /* Footer */
+  /* footer {
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+  }
+   */

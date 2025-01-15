@@ -1,0 +1,83 @@
+.AboutPageCard {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 800px;
+    height: 400px;
+    margin: 60px auto 0px;
+    /* Other existing styles */
+}
+
+#Proflex.profileImg {
+    margin-left: 0px;
+    width:220px;
+}
+
+@keyframes glow {
+    from, to {
+        box-shadow: 0 0 3px #fff, 0 0 6px rgb(2, 255, 82), 0 0 9px #3d9b34, 0 0 10px rgb(2, 255, 82), 0 0 9px rgb(2, 255, 82), 0 0 6px #3d9b34, 0 0 3px #ffffff;
+    }
+}
+
+.profileImg {
+    position: absolute;
+    bottom: 0;
+    right: -215px;
+    width: 240px;
+    height: 260px;
+    border-radius: 25px;
+    animation: glow 2s ease-in-out infinite alternate;
+    margin-left: 0px;
+}
+
+.aboutWrap {
+    display: flow-root;
+    text-align: center;
+    margin-left: 0px;
+    background-color: #0000;
+    font-family: 'SimsSun';
+    font-size: 20px;
+    height: 33.33px;
+    margin-top: 0px;
+    border: dotted 1.4px #3d9b34;
+    width: 800px;
+    border-radius: 25px;
+}
+
+.Heading {
+    text-align: center;
+    color: #faf5f3;
+    font-size: 17px;
+    font-family: 'SimsSun';
+    font-style: normal;
+    font: monospace;
+    font-weight: bold;
+    font-display: auto;
+    width: 800px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+#Msg {
+    margin-top: 50px; /* Added top margin */
+    margin-bottom: 50px; /* Added bottom margin */
+    margin-left: 10px;
+    width: 750px;
+    height: auto; /* Change height to auto to accommodate content */
+    font-size: 16px;
+    font-family: 'SimsSun';
+    font: monospace;
+    font-style: normal;
+    font-weight: normal;
+    color: #faf5f3;
+    line-height: calc(1em + 2px); /* Updated line spacing to 2px */
+}
+
+.div01 {
+    position: relative;
+    height: 500px;
+    width: 100%;
+    max-width: 1120px; /* Adjust based on your layout needs */
+    margin: 0 auto;
+}

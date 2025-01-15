@@ -1,0 +1,220 @@
+.Navbar{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: grid;
+    width: 100%;
+    align-items: center;
+    padding: 0%; 
+    color:rgb(255, 255, 255);
+    /* background-color: #04040400; */
+    /* font-size: 16px; */
+    text-align: center;
+    font-family: 'SimsSun';
+    font-weight: bold;
+    /* grid-template-rows: 33.33px 33.33px 33.33px; */
+    height: 150px;
+    display: grid;
+    /* opacity: .9; */
+    box-shadow: inset;
+    box-shadow: 1px .7px 1px .7px #faf5f3;
+    border-radius: 0px 0px 25px 25px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'SimsSun';
+    background-image: linear-gradient(180deg, rgb(2, 255, 82), rgb(21, 96, 35), rgb(0, 0, 0), rgb(0, 0, 0));
+}
+
+.headIn {
+    text-align: center;
+    flex-direction: grid;
+    /* grid-template-rows: 33.33px 33.33px; */
+    display: flow-root;
+    width: 100%;
+    height: 66.66px;
+    margin-top: 10px;
+    margin-bottom: 0%;
+}
+
+.TriPodofLife {
+    background: transparent !important;
+    mix-blend-mode: multiply;
+    background-blend-mode: exclusion !important;
+    height: 43.33px;
+    align-items: center !important;
+    transform: scale3d(.35) !important;
+    size-adjust: smaller;
+    color: #ffffff;
+    margin-top: 0%;
+}
+
+.headIn {
+    width: 100%;
+}
+
+.row3 {
+    height: 33.33px;
+    margin-bottom: 10px;
+    display: grid;
+    width: 100%;
+    grid-template-rows: 100%;
+    grid-template-columns: 14% 14% 17.67% 17.67% 18.34% 18.32%;
+    width: 100%;
+    margin-left: -2%;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.HomeLink{
+    margin-left: 65px;
+    color: white;
+    margin-top: 0px;
+    text-decoration: none;
+    margin-bottom: 0%;
+}
+
+.name{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.text {
+    align-self: center;
+    font-family: "SunSims";
+    font-size: 20px;
+}
+
+.homePage {
+    text-align: center;
+}
+
+.aboutPage {
+    text-align: center;
+}
+
+.contactPage {
+    text-align: center;
+}
+
+.resumePage {
+    text-align: center;
+}
+
+.projectsPage {
+    text-align: center;
+}
+
+.galleryPage {
+    text-align: center;
+}
+
+.text{
+    color: whitesmoke;
+    opacity: 0.7;
+}
+.text:hover{
+    text-shadow: 0px 0px 16px whitesmoke; 
+}
+/* 
+@media only screen and (max-width: 1500px){
+    .about{
+        margin-left: 930px;
+    }
+}
+
+@media only screen and (max-width: 1300px){
+    .about{
+        margin-left: 600px;
+    }
+ 
+
+}
+
+@media only screen and (max-width: 1100px){
+    .about{
+        margin-left: 450px;
+    }
+    .contact{
+        margin-left: 50px;
+    }
+    .portfolio{
+        margin-left: 50px;
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    .about{
+        margin-left: 200px;
+        font-size: 15px;
+    }
+    .contact{
+        margin-left: 20px;
+        font-size: 15px;
+    }
+    .portfolio{
+        margin-left: 20px;
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 414px){
+    .about{
+        margin-left: 110px;
+        font-size: 15px;
+    }
+    .contact{
+        margin-left: 15px;
+        font-size: 15px;
+    }
+    .portfolio{
+        margin-left: 15px;
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 375px){
+    .about{
+        margin-left: 90px;
+        font-size: 14px;
+    }
+    .contact{
+        margin-left: 10px;
+        font-size: 14px;
+    }
+    .portfolio{
+        margin-left: 10px;
+        font-size: 14px;
+    }
+
+}
+@media only screen and (max-width: 360px){
+    .about{
+        margin-left: 90px;
+        font-size: 14px;
+    }
+    .contact{
+        margin-left: 10px;
+        font-size: 14px;
+    }
+    .portfolio{
+        margin-left: 10px;
+        font-size: 14px;
+    }
+
+}
+
+@media only screen and (max-width: 320px){
+    .about{
+        margin-left: 45px;
+        font-size: 14px;
+    }
+    .contact{
+        margin-left: 10px;
+        font-size: 14px;
+    }
+    .portfolio{
+        margin-left: 10px;
+        font-size: 14px;
+    }
+
+} */

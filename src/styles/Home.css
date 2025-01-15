@@ -1,0 +1,228 @@
+.App {
+    justify-content: center;
+}
+
+body {
+    background-color: rgb(126, 126, 126);
+    height: 800px;
+}
+
+header {
+    background-color: rgba(97, 174, 41, 0.902);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: grid;
+    justify-content:center;
+    align-items: center;
+    margin: 15px;
+    padding: 10px;
+}
+
+.navbar {
+    width: 100%;
+    height: 110px;
+    display:grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: auto;
+    background-color: rgba(97, 174, 41, 0.902);
+    margin: 0;
+    font-family: monospace;
+    font-weight: bold;
+    color: black !important;
+}
+
+.portfolioTitle {
+    margin-left: 5%;
+    font-size: xx-large;
+}
+
+    .navLinks {
+    display: grid;
+    grid-template-columns: 25% 18% 32% 25%;
+    grid-template-rows: auto;
+    align-items: center;
+    margin-right: 10%;
+    font-size: large;
+    color: black;
+}
+.aboutWrap {
+    width: 60%;
+    height: auto;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    text-orientation: calc(40);
+    background-color: rgb(196, 196, 200);
+    margin-top: 69px;
+}
+
+#aboutMe {
+    margin-left: 4%;
+}
+
+.profileImg {
+    width: 150px;
+    height: auto;
+    box-shadow: 0 0 3px 3px #888;
+    border-radius: 5px;
+    margin-left: 4%;
+}
+
+.igLinkImg {
+    width: 250px !important;
+    height: auto !important;
+    align-items: center;
+    background-image: url("./images/instagram.JPEG");
+}
+
+.igLinkImg:hover {
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 5px purple;
+}
+
+.mod1Challenge {
+    width: 250px;
+    height: auto;
+}
+
+.mod1Challenge:hover {
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 5px purple;
+}
+
+.work {
+    width: 60%;
+    height: 400px;
+    margin: auto;
+    background-color: rgb(196, 196, 200);
+    display: grid;
+    grid-template-columns: 20% 80%;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: large;
+    margin-top: 69px;
+}
+.workLinks {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 69px;
+}
+
+.workTitle {
+    margin-left: 4%;
+}
+
+#resume {
+margin: auto;
+width: 60%;
+height: auto;
+background-color: rgb(196, 196, 200);
+font-family: monospace;
+text-align: center;
+margin-top: 69px;
+}
+
+.resumeContent {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: auto;
+    color: black;
+}
+
+.resumeLinkImg {
+    width: 200px !important;
+    height: auto !important;
+    align-items: center;
+    border-radius: 5px;
+
+}
+
+.resumeLinkImg:hover {
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 5px purple;
+}
+
+#contactInfo {
+    background-color: rgba(97, 174, 41, 0.902);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: grid;
+    justify-content:center;
+    align-items: center;
+    margin: 0px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: auto;
+    align-items: center;
+}
+
+.phoneNumber {
+    margin-left: 20%;
+    margin-top: 10%;
+    color: black;
+}
+
+.email {
+    margin-top: 10%;
+    color: black;
+}
+
+.linkedInImg {
+    width: 50px;
+    height: auto;
+    transform: scale(.8);
+    margin-top: -15px;
+}
+
+.linkedInLabel {
+    margin-top: 32px;
+    color: black;
+}
+
+.spotifyImg {
+    width: 50px;
+    height: auto;
+}
+
+.spotifyLabel {
+    margin-top: 25px;
+    color: black;
+}
+
+.twitterImg {
+    width: 50px;
+    height: auto;
+}
+
+.twitterLabel {
+    margin-top: 25px;
+    color: black;
+}
+
+.OurFormula {
+    text-align: center;
+    font-family: 'SimsSun';
+    padding: 0%;
+    height: 100%;
+    font-size: medium;
+    color: rgb(0, 0, 0);
+    margin-left: 37.5%;
+    width: 25%;
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+
+.DoIt2It {
+    text-align: center; 
+    font-family: 'SimsSun'; 
+    padding: 0%; 
+    font-size: medium;
+    color:rgb(0, 0, 0); 
+    margin-left: 37.5%; 
+    width: 25%; 
+    margin-top: 40px; 
+    margin-bottom: 0px;
+}
