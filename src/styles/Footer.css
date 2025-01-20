@@ -38,11 +38,15 @@
     height: auto;
 }
 
+.igAnimation {
+    transform: scale(.98,.98);
+}
+
 .spotifyAnimation {
-    transform: scale(.5,.5)
+    transform: scale(.98,.98)
 }
 
 .linkedinAnimation {
-    transform: scale(.5,.5)
+    transform: scale(.98,.98)
 }
  /* transform scale display grid z index */

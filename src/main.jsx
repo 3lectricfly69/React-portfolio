@@ -26,7 +26,7 @@ const router = createBrowserRouter([
         index: true,
         element: <HomePage />,
       },
-      // {
+      // {82iwer,gfdsbvc xz
       //   path: 'profile/:id',
       //   element: <ProfilePage />,
       // },
@@ -34,6 +34,7 @@ const router = createBrowserRouter([
         path: 'about',
         element: <AboutPage />,
       },
+      // image.png
       {
         path: "/contact",
         element: <ContactPage />,

@@ -2,7 +2,7 @@
 // header, link React/dom/css/footer/
 import "../styles/About.css";
 import React from 'react';
-//import Proflex from "../../images/profileImg.png"
+import Proflex from "../images/profileImg.png"
 
   // In `Card`, we can assign a style from an object by using curly braces
   // We are assigning the card, heading, and content all from our `style` object
@@ -22,7 +22,7 @@ In addition to my coding journey, I’m also a visual designer, creating both pa
 
 I’m excited to share my journey with you and explore the intersection of art and technology. Whether it’s through a website, an application, or a piece of art, my goal is to make the world a better, more beautiful place. Let’s connect and create something amazing together!
 
-    <img id="Proflex" src="../../images/profileImg.png" className="profileImg"/>
+    <img id="Proflex" src={Proflex} className="profileImg"/>
 </div>
 </section>
     </ div></div>
