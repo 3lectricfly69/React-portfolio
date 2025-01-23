@@ -9,6 +9,7 @@
   /* Gallery Grid Layout (4x5 Grid) */
   .galleryGrid {
     display: grid;
+    overflow-y: hidden;
     grid-template-columns: repeat(4, 200px); /* 4 columns, each 200px wide */
     grid-template-rows: repeat(5, 200px);    /* 5 rows, each 200px tall */
     gap: 20px; /* Space between the images */

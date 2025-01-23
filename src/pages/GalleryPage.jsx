@@ -1,19 +1,34 @@
 import React, { useState } from "react";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
-// import "../../pages/Galley/GalleryPage.css";  // Importing the CSS file
-import "../styles/GalleryPage.css" //Importing the CSS file
-
+// import Header from "../components/Header";
+// import Footer from "../components/Footer";
+import "../styles/GalleryPage.css"; // Importing the CSS file
 
 const GalleryPage = () => {
   const [selectedImage, setSelectedImage] = useState(null);
 
-  // Sample image data (you can modify this with actual image URLs)
-  const images = Array(20).fill(null).map((_, index) => ({
-    id: index + 1,
-    src: `../src/images/Red_square.svg.png`,  // Replace with your actual image path
-    alt: `Image ${index + 1}`,
-  }));
+  // Array of image paths
+  const images = [
+    { id: 1, src: "../src/images/no.1Gi/1.jpg", alt: "Image 1" },
+    { id: 2, src: "../src/images/no.1Gi/eleven.jpg", alt: "Image 2" },
+    { id: 3, src: "../src/images/no.1Gi/9.jpg", alt: "Image 3" },
+    { id: 4, src: "../src/images/no.1Gi/sixteen.jpg", alt: "Image 4" },
+    { id: 5, src: "../src/images/no.1Gi/nineteen.jpg", alt: "Image 5" },
+    { id: 6, src: "../src/images/no.1Gi/twelve.jpg", alt: "Image 6" },
+    { id: 7, src: "../src/images/no.1Gi/spree.jpg", alt: "Image 7"},
+    { id: 8, src: "../src/images/no.1Gi/twenty.jpg", alt: "Image 8" },
+    { id: 9, src: "../src/images/no.1Gi/eighteen.jpg", alt: "Image 9" },
+    { id: 10, src: "../src/images/no.1Gi/ten.jpg", alt: "Image 10" },
+    { id: 11, src: "../src/images/no.1Gi/fourteen.jpg", alt: "Image 11" },
+    { id: 12, src: "../src/images/no.1Gi/fifteen.jpg", alt: "Image 12" },
+    { id: 13, src: "../src/images/no.1Gi/six.jpg", alt: "Image 13" },
+    { id: 14, src: "../src/images/no.1Gi/seventeen.jpg", alt: "Image 14" },
+    { id: 15, src: "../src/images/no.1Gi/globus.jpg", alt: "Image 15" },
+    { id: 16, src: "../src/images/no.1Gi/five.jpg", alt: "Image 16" },
+    { id: 17, src: "../src/images/no.1Gi/four.jpg", alt: "Image 17" },
+    { id: 18, src: "../src/images/no.1Gi/supple.jpg", alt: "Image 18" },
+    { id: 19, src: "../src/images/no.1Gi/two.jpg", alt: "Image  19" },
+    { id: 20, src: "../src/images/no.1Gi/one.jpg", alt: "Image 20" }
+  ];
 
   // Handle opening the lightbox with the clicked image
   const openLightbox = (src) => {
@@ -27,7 +42,7 @@ const GalleryPage = () => {
 
   return (
     <div className="galleryPage">
-      <Header />
+      {/* <Header /> */}
 
       <div className="galleryGrid">
         {images.map((image) => (
@@ -47,7 +62,7 @@ const GalleryPage = () => {
         </div>
       )}
 
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };
