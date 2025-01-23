@@ -4,6 +4,7 @@ import Footer from "../components/Footer";
 // import "../../pages/Galley/GalleryPage.css";  // Importing the CSS file
 import "../styles/GalleryPage.css" //Importing the CSS file
 
+
 const GalleryPage = () => {
   const [selectedImage, setSelectedImage] = useState(null);
 

@@ -1,79 +1,79 @@
 .ProjectsWindow{
 
-    height: 410px;
-    width: 600px;
-    background-color: black;
-    border-radius: 25px;
-    box-shadow: 0px 0px 48px whitesmoke;
-    margin: auto;
-    margin-left: 75px;
-    overflow: scroll;
-    text-decoration: none !important;
-    }
-    
-    .links{
-        margin-left: 20px;
-        color: white;
-        
-        
-    }
-
-    body {
-        height: 800px;
-    }
-    
-    .header{
-        text-align: center;
-        color: white;
-    }
-    .links:hover{
-        text-shadow: 0px 0px 16px whitesmoke; 
-        color: white;
-    }
-    .linkRow{}
-    .description{
-        height: 30px;
-        background-color: black;
-        color: white;
-        box-shadow: 0px 0px 5px whitesmoke;
-        margin-left: 175px;
-        border-radius: 5px;
-    
-    }
-    .linkdesc{
-        margin-top: 10px;
-    }
-    .pDiv{
-        color: white;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        margin-left: -263px;
-        box-shadow: 0px 0px 5px whitesmoke;
-        width: 500px;
-        
-    }
-    .dDiv{
-        margin-top: 20px;
-        margin-left: 10px;
-    }
-    
-    
-    @media only screen and (max-width: 414px){
-        .ProjectsWindow{
-            height: 410px;
-            width: 300px;
+  height: 410px;
+  width: 600px;
+  background-color: black;
+  border-radius: 25px;
+  box-shadow: 0px 0px 48px whitesmoke;
+  margin: auto;
+  margin-left: 75px;
+  overflow: scroll;
+  text-decoration: none !important;
+  }
+  
+  .links{
+      margin-left: 20px;
+      color: white;
       
+      
+  }
+
+  body {
+      height: 800px;
+  }
+  
+  .header{
+      text-align: center;
+      color: white;
+  }
+  .links:hover{
+      text-shadow: 0px 0px 16px whitesmoke; 
+      color: white;
+  }
+  .linkRow{}
+  .description{
+      height: 30px;
+      background-color: black;
+      color: white;
+      box-shadow: 0px 0px 5px whitesmoke;
+      margin-left: 175px;
+      border-radius: 5px;
+  
+  }
+  .linkdesc{
+      margin-top: 10px;
+  }
+  .pDiv{
+      color: white;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      margin-left: -263px;
+      box-shadow: 0px 0px 5px whitesmoke;
+      width: 500px;
+      
+  }
+  .dDiv{
+      margin-top: 20px;
+      margin-left: 10px;
+  }
+  
+  
+  @media only screen and (max-width: 414px){
+      .ProjectsWindow{
+          height: 410px;
+          width: 300px;
     
-        }
-        .description{}
-    
-    
-        .pDiv{
-            margin-left: 25px;
-            width: 250px;
-        }
-        #bottomBtn{
-    
-        }
-    }
-    
+  
+      }
+      .description{}
+  
+  
+      .pDiv{
+          margin-left: 25px;
+          width: 250px;
+      }
+      #bottomBtn{
+  
+      }
+  }
+  

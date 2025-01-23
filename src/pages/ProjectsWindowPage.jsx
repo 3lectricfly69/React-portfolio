@@ -1,78 +1,48 @@
-import React, { useState } from "react";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
+// header, link React/dom/css/footer/
+import { React } from "react";
 import "../styles/ProjectsPage.css";
 
 const ProjectsWindowPage = () => {
-  const [hoveredImage, setHoveredImage] = useState(null);
+    return (
+        <div id="project3">
+            <div className="project-item">
+                <a href="https://github.com/Clarky13F/new-project-3" target="_blank" rel="noopener noreferrer">
+                    <img src="../src/images/135402.png" className="clickableImage" alt="Project 3" />
+                </a>
+            </div>
+            <div className="project-item">
+                <a href="https://github.com/3lectricfly69/EeriePapers" target="_blank" rel="noopener noreferrer">
+                    <img src="../src/images/Screenshot109.png" className="clickableImage" alt="Eerie Papers" />
+                </a>
+            </div>
+            <div className="project-item">
+                <a href="https://github.com/RPMcQuigg/Vandy-Project-01" target="_blank" rel="noopener noreferrer">
+                <img src="../src/images/repo-screenshot.png" className="clickableImage" alt="Local List"></img></a>
+            </div>
+        </div>
+    )
+}
 
-  const projects = [
-    {
-      id: 1,
-      src: "../src/images/135402.png",
-      alt: "Project 3",
-      text: "New Project 3",
-      link: "https://github.com/Clarky13F/new-project-3",
-    },
-    {
-      id: 2,
-      src: "../src/images/Screenshot109.png",
-      alt: "Eerie Papers",
-      text: "Eerie Papers",
-      link: "https://github.com/3lectricfly69/EeriePapers",
-    },
-    {
-      id: 3,
-      src: "../src/images/repo-screenshot.png",
-      alt: "Local List",
-      text: "Local List",
-      link: "https://github.com/RPMcQuigg/Vandy-Project-01",
-    },
-    // Add more projects here
-  ];
 
-  const handleMouseEnter = (id) => {
-    setHoveredImage(id);
-  };
 
-  const handleMouseLeave = () => {
-    setHoveredImage(null);
-  };
+//   const profile = data?.profile || {};
 
-  return (
-    <div className="projectsPage">
-      <Header />
+//   if (loading) {
+//     return <div>Loading...</div>;
+//   }
+//   return (
+//     <div>
+//       <h2 className="card-header">
+//         {profile.name}'s friends have endorsed these skills...
+//       </h2>
 
-      <div className="projectsGrid">
-        {projects.map((project) => (
-          <div
-            key={project.id}
-            className="projectItem"
-            onMouseEnter={() => handleMouseEnter(project.id)}
-            onMouseLeave={handleMouseLeave}
-          >
-            <a
-              href={project.link}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="clickableLink"
-            >
-              <img
-                className="projectImage"
-                src={project.src}
-                alt={project.alt}
-              />
-            </a>
-            {hoveredImage === project.id && (
-              <div className="hoverText">{project.text}</div>
-            )}
-          </div>
-        ))}
-      </div>
+//       {profile.skills?.length > 0 && <SkillsList skills={profile.skills} />}
 
-      <Footer />
-    </div>
-  );
-};
+//       <div className="my-4 p-4" style={{ border: '1px dotted #1a1a1a' }}>
+//         <SkillForm profileId={profile._id} />
+//       </div>
+//     </div>
+//   );
+// };
 
-export default ProjectsWindowPage;
+export default ProjectsWindowPage
