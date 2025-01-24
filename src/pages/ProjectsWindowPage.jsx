@@ -1,6 +1,7 @@
 // header, link React/dom/css/footer/
 import { React } from "react";
 import "../styles/ProjectsPage.css";
+//import LocalList from "../src/images/135402.png";
 // import "../src/images/images/135402"
 
 const ProjectsWindowPage = () => {
@@ -8,17 +9,17 @@ const ProjectsWindowPage = () => {
         <div id="project3">
             <div className="project-item">
                 <a href="https://github.com/Clarky13F/new-project-3" target="_blank" rel="noopener noreferrer">
-                    <img src="../src/images/135402.png" className="clickableImage" alt="Project 3" />
+                    <img src="../images/135402.png" className="clickableImage" alt="Project 3" />
                 </a>
             </div>
             <div className="project-item">
                 <a href="https://github.com/3lectricfly69/EeriePapers" target="_blank" rel="noopener noreferrer">
-                    <img src="../src/images/Screenshot109.png" className="clickableImage" alt="Eerie Papers" />
+                    <img src="../images/Screenshot109.png" className="clickableImage" alt="Eerie Papers" />
                 </a>
             </div>
             <div className="project-item">
                 <a href="https://github.com/RPMcQuigg/Vandy-Project-01" target="_blank" rel="noopener noreferrer">
-                <img src="../src/images/repo-screenshot.png" className="clickableImage" alt="Local List"></img></a>
+                <img src="../images/repo-screenshot.png" className="clickableImage" alt="Local List"></img></a>
             </div>
         </div>
     )
