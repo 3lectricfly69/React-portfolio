@@ -51,7 +51,7 @@ const GalleryPage = () => {
             className="galleryItem"
             onClick={() => openLightbox(image.src)}
           >
-            <img className="galleryImage" src={image.src} alt={image.alt} />
+            <img className="galleryImage" src={images[image.id - 1].src} alt={images[image.id - 1].alt} />
           </div>
         ))}
       </div>
