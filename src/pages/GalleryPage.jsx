@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-// import Header from "../components/Header";
-// import Footer from "../components/Footer";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 import "../styles/GalleryPage.css"; // Importing the CSS file
 
 const GalleryPage = () => {
@@ -42,7 +42,7 @@ const GalleryPage = () => {
 
   return (
     <div className="galleryPage">
-      {/* <Header /> */}
+      <Header />
 
       <div className="galleryGrid">
         {images.map((image) => (
@@ -62,7 +62,7 @@ const GalleryPage = () => {
         </div>
       )}
 
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 };
