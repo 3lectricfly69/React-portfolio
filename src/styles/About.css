@@ -9,6 +9,16 @@
     /* Other existing styles */
 }
 
+.mobileAboutPageCard{
+    position: relative;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 800px;
+    height: 400px;
+    margin: 60px auto 0px;
+}
+
 #Proflex.profileImg {
     margin-left: 0px;
     width:220px;
@@ -42,6 +52,21 @@
     margin-top: 0px;
     border: dotted 1.4px #3d9b34;
     width: 800px;
+    border-radius: 25px;
+}
+
+.mobileAboutWrap {
+    display: grid;
+    grid-template-columns: 100%;
+    text-align: center;
+    margin-left: 0px;
+    background-color: #0000;
+    font-family: 'SimsSun';
+    font-size: 20px;
+    height: 33.33px;
+    margin-top: 0px;
+    border: dotted 1.4px #3d9b34;
+    width: 414px;
     border-radius: 25px;
 }
 
@@ -80,4 +105,146 @@
     width: 100%;
     max-width: 1120px; /* Adjust based on your layout needs */
     margin: 0 auto;
+}
+
+@media only screen and (max-width: 430px) {
+
+
+
+    .AboutPageCard{
+        display: none;
+    }
+
+    .mobileAboutPageCard{
+        display: flex;
+    }
+    #Msg {
+        width: 380px;
+    }
+    .Heading {
+        width: 380px;
+    }
+    .profileImg {
+        transform:scale(.75);
+        right: 0px;
+
+    }
+    .mobileAboutWrap {
+        display: grid;
+        grid-template-columns: repeat(1,100%);
+    }
+} 
+
+@media screen and (max-width: 414px) {
+    
+
+
+    .AboutPageCard{
+        display: none;
+    }
+
+    .mobileAboutPageCard{
+        display: flex;
+    }
+    #Msg {
+        width: 380px;
+    }
+    .Heading {
+        width: 380px;
+    }
+    .profileImg {
+        transform:scale(.75);
+        right: 0px;
+
+    }
+    .mobileAboutWrap {
+        display: grid;
+        grid-template-columns: repeat(1,100%);
+    }
+}
+
+@media screen and (max-width: 390px) {
+    
+
+
+    .AboutPageCard{
+        display: none;
+    }
+
+    .mobileAboutPageCard{
+        display: flex;
+    }
+    #Msg {
+        width: 370px;
+    }
+    .Heading {
+        width: 380px;
+    }
+    .profileImg {
+        transform:scale(.75);
+        right: 0px;
+
+    }
+    .mobileAboutWrap {
+        display: grid;
+        grid-template-columns: repeat(1,100%);
+        width: 390px;
+    }
+}
+
+@media screen and (max-width: 375px){
+    
+
+
+    .AboutPageCard{
+        display: none;
+    }
+
+    .mobileAboutPageCard{
+        display: flex;
+    }
+    #Msg {
+        width: 355px;
+    }
+    .Heading {
+        width: 380px;
+    }
+    .profileImg {
+        transform:scale(.75);
+        right: 0px;
+
+    }
+    .mobileAboutWrap {
+        display: grid;
+        grid-template-columns: repeat(1,100%);
+        width: 375px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    
+
+
+    .AboutPageCard{
+        display: none;
+    }
+
+    .mobileAboutPageCard{
+        display: flex;
+    }
+    #Msg {
+        width: 380px;
+    }
+    .Heading {
+        width: 380px;
+    }
+    .profileImg {
+        transform:scale(.75);
+        right: 0px;
+
+    }
+    .mobileAboutWrap {
+        display: grid;
+        grid-template-columns: repeat(1,100%);
+    }
 }

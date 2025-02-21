@@ -15,6 +15,7 @@
     gap: 20px; /* Space between the images */
     justify-content: center;
     width: 100%;
+    height: 100%;
     max-width: 900px; /* Optional, you can adjust this to fit your design */
   }
   
@@ -72,3 +73,10 @@
     text-align: center;
   }
    */
+  @media only screen and (max-width: 430px) {
+
+    .galleryGrid{
+      grid-template-columns: repeat(1, 200px);
+    }
+
+  } 

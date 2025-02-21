@@ -21,7 +21,7 @@ const GalleryPage = () => {
     { id: 11, src: "/images/no.1Gi/fourteen.jpg", alt: "Image 11" },
     { id: 12, src: "/images/no.1Gi/fifteen.jpg", alt: "Image 12" },
     { id: 13, src: "/images/no.1Gi/six.jpg", alt: "Image 13" },
-    { id: 14, src: "/images/no.1Gi/seventeen.jpg", alt: "Image 14" },
+    { id: 14, src: "/images/no.1Gi/waddapowe.jpg", alt: "Image 14" },
     { id: 15, src: "/images/no.1Gi/globus.jpg", alt: "Image 15" },
     { id: 16, src: "/images/no.1Gi/five.jpg", alt: "Image 16" },
     { id: 17, src: "/images/no.1Gi/four.jpg", alt: "Image 17" },
@@ -61,8 +61,6 @@ const GalleryPage = () => {
           <img className="lightboxImage" src={selectedImage} alt="Selected" />
         </div>
       )}
-
-      <Footer />
     </div>
   );
 };

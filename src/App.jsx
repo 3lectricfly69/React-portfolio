@@ -25,7 +25,7 @@ import "./App.css";
         <div className="body">
           <Outlet className="Outlet" />
         </div>
-        <Footer class="Footer"/>
+        {/* <Footer class="Footer"/> */}
       </>
     );
   }
