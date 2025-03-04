@@ -42,7 +42,7 @@ const GalleryPage = () => {
 
   return (
     <div className="galleryPage">
-      <Header />
+      {/* <Header /> */}
 
       <div className="galleryGrid">
         {images.map((image) => (

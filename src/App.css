@@ -57,6 +57,52 @@ textarea {
   /* margin-left: 30%; */
 }
 
+/* Ensure the entire page has a solid black background */
+html, body {
+  background-color: #000 !important;  /* Forces pure black */
+  color: white !important;  /* Ensures text is visible */
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden; /* Prevents horizontal scrolling */
+}
+
+/* Main app container */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #000 !important; /* Ensures the app container is black */
+}
+
+/* Makes the body area scrollable while keeping the footer visible */
+.body {
+  flex: 1;
+  overflow-y: auto; /* Enables scrolling */
+  padding-bottom: 60px; /* Prevents content from being hidden under the footer */
+  background-color: #000 !important; /* Ensures content background is black */
+}
+
+/* Navbar styling (optional, adjust as needed) */
+.navbar {
+  width: 100%;
+  color: white;
+  padding: 1rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  font-family: 'SimsSun';
+  font-size: 16px;
+  background-color: black;
+  background-image: linear-gradient(180deg, rgb(2, 255, 82), rgb(21, 96, 35), rgb(0, 0, 0), rgb(0, 0, 0));
+  height: 100%;
+  width: 100%;
+}
+
+
 /* #tagLine {
   text-align: center;
   color: rgb(0, 0, 0);

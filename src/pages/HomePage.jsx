@@ -13,6 +13,7 @@ const HomePage = () => {
         <div>
         <div className="OurFormula" ><h2>Be Interactive.</h2></div>
         <div className="DoIt2It" ><h3>Engage with oneself by cherishing this.</h3></div>
+        <a className="bottomMar"></a>
         </div>
     )
     }

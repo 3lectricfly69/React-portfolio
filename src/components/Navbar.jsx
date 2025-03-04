@@ -1,4 +1,3 @@
-// Navbar.jsx
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import "../styles/Navbar.css";
@@ -13,9 +12,9 @@ export default function Navbar() {
 
     return (
         <div className="navbar-container">
-            {/* Desktop Navbar */}
+            {/* Desktop Navbar (hidden on mobile) */}
             <div className="Navbar">
-                <p className="headIn"><Header /></p>
+                <Header />
                 <div className="row3">
                     <Link className="HomeLink" to="/">HOME</Link>
                     <Link className="HomeLink" to="/about">ABOUT</Link>
@@ -24,14 +23,13 @@ export default function Navbar() {
                     <Link className="HomeLink" to="/projects">PROJECTS</Link>
                     <Link className="HomeLink" to="/gallery">GALLERY</Link>
                 </div>
+                {/* <img src="../images/Nav-Emblem.gif" className="TriPod0Life" alt="Nav Emblem" /> */}
             </div>
 
-            {/* Mobile Navbar */}
+            {/* Mobile Navbar (hidden on desktop) */}
             <div className="mobileNavbar">
-                <p className="headIn"><Header /></p>
-                <button className="menu-toggle" onClick={toggleMobileMenu}>
-                    ☰
-                </button>
+                <Header />
+                <button className="menu-toggle" onClick={toggleMobileMenu}>☰</button>
                 <div className={`mobile-menu ${isMobileMenuOpen ? "open" : ""}`}>
                     <Link className="HomeLink" to="/" onClick={toggleMobileMenu}>HOME</Link>
                     <Link className="HomeLink" to="/about" onClick={toggleMobileMenu}>ABOUT</Link>
